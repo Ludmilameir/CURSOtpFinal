@@ -1,0 +1,206 @@
+@font-face {
+    font-family: Montserrat;
+    src: (url(../../font/Montserrat-Bold.ttf));
+}
+@font-face {
+    font-family: Roboto;
+    src: (url(../../font/Poppins-Black.ttf));
+}
+@font-face {
+    font-family: Poppins;
+    src: (url(../../font/Poppins-Black.ttf));
+}
+.inicio{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+}
+
+.content img{
+    width: 100%;
+}
+#espacio{
+    height: 200px;
+}
+#EncontrarAuto{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.buscarAuto{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+#tipoAuto{
+display: flex;
+align-items: center;
+}
+
+#tipoAuto input[type="button"]{
+    background-color: #b8b8b8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 50px;
+    margin: 8px;
+}
+#tipoAuto input[type="button"]:active{
+    background-color: #332c2c;
+    color: white;
+    border: 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 50px;
+    margin: 8px;
+
+}
+.buscarAuto input[type="text"]{
+    width: 280px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+.buscarAuto .botonBuscar{
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 15%;
+}
+.buscarAuto .botonBuscar:hover{
+    background-color: #555;
+
+}
+
+.marcasLideres{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.marcaLider{
+    width: 50%;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    border: 1px solid #332c2c;
+    border-radius: 10px;
+    padding: 10px;
+    border-radius: 1px;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   
+}
+
+
+.marcaLider img{
+   
+    width: 50%;
+    height:40%; 
+    margin-left: 95px;
+}
+
+/* label{
+    background-color: #332c2c;
+    color: white;
+    border: 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 50px;
+    margin: 8px;
+
+} */
+.botones{
+    background-color: #332c2c;
+    color: white;
+    border: 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 50px;
+    margin: 8px;   
+}
+.avisos
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #332c2c;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+    
+
+    .avisosglob {
+        display: flex;
+        justify-content: center;
+    
+
+    } 
+
+
+   
+    
+    .avisos button{
+        background-color: #332c2c;
+        color: #ffffff;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+
+    
+.persona1{
+    width: 100%;
+}    
+
+ .botones:hover{
+    background-color: #555;    
+}
+
+
+.carousel {
+    overflow: hidden;
+   /*
+    max-width: 200px; /* Cambia este valor para controlar el ancho máximo */
+    margin: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.carrusel img {
+    width: 100%;
+}
+.carousel-inner {
+    display: flex;
+    width: 100%; /* 7 imágenes */
+    animation: slide 14s infinite; /* Animación de 14s que se repite infinitamente */
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel img {
+    width: 100%;
+    display: block;
+  }
+  
+  /* Definición de la animación */
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    14.28% { transform: translateX(-100%); }
+    28.56% { transform: translateX(-200%); }
+    100% { transform: translateX(0); }
+  }

@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../../font/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../../font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../../font/Poppins-Black.ttf);
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Cambiado para alinear los elementos en la parte superior */
+    height: 600px;
+    font-family: Montserrat;
+    text-align: left;
+}
+
+#ContenedorIZQ2 {
+    width: 40%;
+    margin: 40px;
+}
+
+#ContenedorDER2 {
+    width: 500px;
+    background-color: red;
+    display: flex; /* Asegúrate de que la imagen esté bien alineada */
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+}
+
+form input,
+form textarea {
+    width: 100%; /* Ajustado al 100% para que se alineen con el contenedor */
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Margen para separar el botón de los inputs */
+}
+
+form button:hover {
+    background-color: #555;
+}

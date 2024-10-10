@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../../font/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../../font/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../../font/Poppins-Black.ttf);
+}
+.nav{
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b1b;
+    font-family: Montserrat;
+}
+
+.nav ul{
+    display: flex;
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+    padding: 10px;
+    margin: 20px;
+}
+.nav li{
+    padding: 10px;
+    margin: 20px; 
+    list-style: none; 
+    text-decoration: none;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav img{
+    width: 100px;
+    height: 80px;
+    padding: 10px;
+}

@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Montserrat;
+    src: (url(../../font/Montserrat-Bold.ttf));
+}
+@font-face {
+    font-family: Roboto;
+    src: (url(../../font/Poppins-Black.ttf));
+}
+@font-face {
+    font-family: Poppins;
+    src: (url(../../font/Poppins-Black.ttf));
+}
+
+.km0{
+    text-align: left;
+}
+.frase{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 60px;
+    margin-left: 480px;
+}
+
+
+.carousel {
+    position: relative;
+    max-width: 100%; 
+    max-height: 600px; 
+    margin: auto;
+    overflow: hidden; /* Ocultar imágenes fuera del contenedor */
+}
+
+.carousel-images {
+    display: flex; /* Mostrar imágenes en fila */
+    transition: transform 0.7s ease; 
+}
+
+.carousel-images img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.next {
+    right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+#CatalogoAutos h1{
+    text-align: center;
+    }
+    #Contenedor{
+        display: flex;
+        width: 100%;
+    }
+
+.catalogo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+
+.auto {
+    background-color: #cccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.auto img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.auto h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.auto p {
+    font-size: 1em;
+    color: #666;
+}
+
+.auto p:last-child {
+    font-weight: bold;
+    color: #333;
+}
+
+.filtrarLista {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: Montserrat;
+    padding: 30px;
+    list-style-type: none;
+}
+
+.ordernarPor label {
+    font-size: 16px;
+    margin-right: 10px;
+    font-family: Montserrat;
+
+}
+
+.ordernarPor select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-family: Montserrat;
+
+}
+.filtros ul {
+    list-style-type: none;
+    padding-left: 20px;
+    font-family: Montserrat;
+}
+
+.filtros li label {
+    font-size: 14px;
+    color: #555;
+    font-family: Montserrat;
+
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    font-family: Montserrat;
+    border-color: 1px solid #000000;
+
+}

@@ -1,0 +1,219 @@
+@font-face {
+    font-family: Montserrat;
+    src: (url(../../font/Montserrat-Bold.ttf));
+}
+@font-face {
+    font-family: Roboto;
+    src: (url(../../font/Poppins-Black.ttf));
+}
+@font-face {
+    font-family: Poppins;
+    src: (url(../../font/Poppins-Black.ttf));
+}
+
+.asesoria{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+    text-align: left;
+}
+
+#espacio{
+    height: 80px;
+    
+}
+
+.content{
+    width: 100%;
+}
+
+
+.vehiculosRecomendados{
+    justify-content: center;
+    align-items: center;
+    transition: hidden 2s ease-in-out; 
+}
+.vehiculosRecomendados h1{
+    text-align: center;
+}
+.botonesVehiculos{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #929090;
+}
+.botonesVehiculos button{
+    margin: 20px;
+    font-family: Montserrat;
+    font-size: large;
+    padding: 30px;
+    width: 20%;
+    background-color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+#AutosRecomendados{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#camionetasRecomendadas{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.botonesVehiculos button.active {
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+.hidden{
+    display: none !important;
+}
+
+.Recomendado{
+    background-color: #ffffff;
+    color: #332c2c;
+    border: 1px solid #929090;
+    border-radius: 20px;
+    font-family: Montserrat;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.Recomendado button{
+    background-color: #332c2c;
+    border: 1px solid #332c2c;
+    color: #ccc;
+    font-family: Montserrat;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.Recomendado img{
+    width: 150px;
+    height: 100px;
+}
+
+/* DECIDIR ENTRE KM O USADOS CSS */
+#kmUsado{
+width: 90%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.cont{
+background-color: #ccc;
+padding: 30px;
+width: 40%;
+margin: 20px;
+display: inline-block;
+justify-content: center;
+align-items: center;
+font-family: Roboto;
+
+}
+.cont ul{
+    list-style:disc;
+}
+.cont li{
+    padding: 10px;
+}
+.cont img{
+width: 80px;
+}
+.cont button{
+    background-color: #6b6464;
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+.cont button a{
+    color: #ffff;
+    text-decoration: none;
+}
+.asesoriaExplicacion{
+    align-items: center;
+    justify-content:center; 
+}
+.introduccionAsesoria{
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+}
+.tipsAsesoria{
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content:center;
+    background-color: #cccccc;
+    margin: 40px;
+    margin-top: -10px;
+}
+.tip{
+    padding: 30px;
+    margin: 50px;
+    width: 34%;
+    font-size:small;
+}
+.tip img{
+    width: 80px;
+}
+
+#preguntas{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto;
+    background-color: #ffffff;
+    color: #000000;
+}
+.title{
+    /* font-size: 3rem; */
+    margin: 2rem 0rem;
+}
+.contenedor{
+    width: 800px;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgb(175, 175, 175);
+    cursor: pointer;
+}
+.pregunta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.respuesta{
+    height: 0;
+    display: none;
+    transition: display 1.4s ease;
+
+}
+.respuesta p{
+    padding-top: 1rem;
+    line-height: 1.6;
+}
+.respuesta.show{
+    display: block;
+}
+.contenedor.active{
+    margin-bottom: 70px;
+}
+.contenedor.active svg{
+    transform: rotate(180deg);
+}
+
+.fotoContactar img{
+    width: 100%;
+}

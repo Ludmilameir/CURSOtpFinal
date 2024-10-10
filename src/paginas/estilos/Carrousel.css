@@ -1,0 +1,19 @@
+.carrusel {
+    position: relative;
+    overflow: hidden;
+}
+
+.imagenes {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.imagenes img {
+ 
+}
+
+img{
+    width: 100%;
+   max-width: 100%;
+    display: block;
+}

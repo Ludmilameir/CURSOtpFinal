@@ -1,0 +1,182 @@
+@font-face {
+    font-family: Montserrat;
+    src: (url(../../font/Montserrat-Bold.ttf));
+}
+@font-face {
+    font-family: Roboto;
+    src: (url(../../font/Poppins-Black.ttf));
+}
+@font-face {
+    font-family: Poppins;
+    src: (url(../../font/Poppins-Black.ttf));
+}
+
+.financiacion {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
+
+.principal-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+
+.principal-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.principal-section h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.contenedor-autos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+   
+}
+
+.car-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.car-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.car-card h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.car-card p {
+    color: #555;
+}
+
+.car-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.car-card button:hover {
+    background-color: #1b0606;
+}
+
+.car-card:hover {
+    transform: scale(1.05);
+}
+
+.car-card p {
+text-align: left;
+}
+
+.carousels {
+    overflow: hidden;
+   /*
+    max-width: 200px; /* Cambia este valor para controlar el ancho máximo */
+    margin: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.carrusels img {
+    width: 100%;
+}
+  
+  .carousel-inners {
+    display: flex;
+    width: 100%; /* 7 imágenes */
+    animation: slides 14s infinite; /* Animación de 14s que se repite infinitamente */
+  }
+  
+  .carousel-items {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousels img {
+    width: 100%;
+    display: block;
+  }
+  
+  /* Definición de la animación */
+  @keyframes slides {
+    0% { transform: translateX(0); }
+    14.28% { transform: translateX(-100%); }
+    28.56% { transform: translateX(-200%); }
+    42.84% { transform: translateX(-300%); }
+    57.12% { transform: translateX(-400%); }
+    71.40% { transform: translateX(-500%); }
+    85.68% { transform: translateX(-600%); }
+    100% { transform: translateX(0); }
+  }
+  
+  .image-dudacliente {
+    position: relative;
+    text-align: center; /* Centra la imagen horizontalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* O ajusta según necesites */
+}
+
+.image-dudacliente img {
+    display: block;
+    width: 1000px; /* Ajusta el tamaño de la imagen según necesites */
+    height: auto;
+    text-align: center;
+    border-radius: 8px; /* Borde redondeado opcional */
+}
+
+.button-consulta {
+    position: absolute;
+    top: 78%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 20px 40px; 
+    font-size: 18px; 
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button-consulta:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
